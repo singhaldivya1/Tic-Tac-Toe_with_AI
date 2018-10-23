@@ -19,11 +19,14 @@ There are 3 game modes: Human vs Human, Human vs Computer , Computer vs Computer
 ## Instructions to run the game
 * Clone this repository
 * Install python 3 
-* If using an IDE, open the project and run the "game.py" located in "python" folder.
+* This repo has 4 file: game.py, computer.py, players.py  and board.py.
+* If using an IDE, open the project and run the "game.py" located in "python" folder. 'game.py' imports all the necessary classes used for the game.
+  Please make sure all the four files are in the same directory.
 * If using command-line follow the instructions mentionded on the link: https://www.pythoncentral.io/execute-python-script-file-shell/. 
 (File is in the "python" folder with name "game.py"
 * Once you run the file, follow on screen instructions to play the game.
 
 ## Running the tests
 
-This game has a automated test suite for unit testing in the `/python` directory. To run the test suite just run `game_test.py` in your terminal.
+This game has a automated test suite for unit testing in the `/python/Test_suite` directory. To run the test suite run `test_game.py`, `test_board.py`,
+ `test_computer.py` and `test_player.py` in your terminal to test all the classes.
